@@ -1,0 +1,83 @@
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+  font-family: "amatic sc";
+  margin-bottom: 0.5em;
+  color: #68c181;
+}
+
+h2, h3 {
+  font-weight: bold;
+  font-family: "amatic sc";
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #68c181;
+}
+
+a {
+  font-family: georgia;
+  text-decoration: none;
+  color: inherit;
+  color: #68c181;
+}
+
+a:hover {
+  color: #d0fbdc;
+}
+
+p {
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  font-family: georgia;
+  line-height: 1.5em;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 1em;
+  border-radius: 1em;
+}
+
+li {
+  font-family: georgia;
+  font-size: 0.8em;
+  line-height: 1.5em;
+}
+
+em {
+  font-weight: bold;
+  font-family: "playfair display sc";
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+fieldset {
+  margin-top: 2em;
+  font-family: georgia;
+  line-height: 1.5em;
+  input {
+    display: block;
+    width: 30em;
+    border: 1px solid #ccc;
+    outline: none;
+    }
+  #message {
+    height: 15em;
+  }
+  legend {
+    display: none;
+  }
+  .button {
+    width: inherit;
+    margin-top: 1em;
+    font-size: 1em;
+    color: #fff;
+    background-color: #68c181;
+    border-radius: 0.5em;
+    border: 0px
+  }
+  .button:hover {
+    background-color: #74a887;
+  }
+}
