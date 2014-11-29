@@ -1,4 +1,4 @@
-/* line 13, ../sass/partials/_reset.scss */
+/* line 1, ../sass/partials/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,7 +20,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 23, ../sass/partials/_reset.scss */
+/* line 22, ../sass/partials/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -41,7 +41,7 @@ blockquote, q {
   quotes: none;
 }
 
-/* line 36, ../sass/partials/_reset.scss */
+/* line 35, ../sass/partials/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -235,33 +235,26 @@ html {
   overflow: auto;
 }
 /* line 36, ../sass/partials/_layout.scss */
-.bios img {
-  width: 90%;
-  margin-left: 5%;
-  margin-top: 5%;
-  border-radius: 50%;
-}
-/* line 42, ../sass/partials/_layout.scss */
-.bios h3 {
+.bios h1 {
   margin: 0 5% 1em 5%;
 }
-/* line 45, ../sass/partials/_layout.scss */
-.bios ul {
-  margin: 0 5% 1em 5%;
+/* line 39, ../sass/partials/_layout.scss */
+.bios p {
+  margin: 0 5% .5em 5%;
 }
-/* line 49, ../sass/partials/_layout.scss */
+/* line 43, ../sass/partials/_layout.scss */
 .bios .bio {
   background-color: #fff;
   border-radius: 0.5em;
   margin-bottom: 2em;
 }
-/* line 50, ../sass/partials/_layout.scss */
-.bios .bio h3 {
+/* line 44, ../sass/partials/_layout.scss */
+.bios .bio h1 {
   font-size: 2em;
   margin-bottom: 0.5em;
 }
 @media (min-width: 30em) {
-  /* line 49, ../sass/partials/_layout.scss */
+  /* line 43, ../sass/partials/_layout.scss */
   .bios .bio {
     width: 48%;
     margin-right: 4%;
@@ -269,27 +262,33 @@ html {
   }
 }
 @media (min-width: 50em) {
-  /* line 49, ../sass/partials/_layout.scss */
+  /* line 43, ../sass/partials/_layout.scss */
   .bios .bio {
     width: 31.5%;
     margin-right: 2.75%;
     float: left;
   }
 }
+/* line 61, ../sass/partials/_layout.scss */
+.bios .bio .profilepic {
+  width: 90%;
+  margin: 1em 5%;
+  border-radius: 50%;
+}
 @media (min-width: 30em) and (max-width: 50em) {
-  /* line 68, ../sass/partials/_layout.scss */
+  /* line 67, ../sass/partials/_layout.scss */
   .bios .bio:nth-child(even) {
     margin-right: 0;
   }
 }
 @media (min-width: 50em) {
-  /* line 73, ../sass/partials/_layout.scss */
+  /* line 72, ../sass/partials/_layout.scss */
   .bios .bio:nth-child(3n+3) {
     margin-right: 0;
   }
 }
 @media (min-width: 50em) {
-  /* line 78, ../sass/partials/_layout.scss */
+  /* line 77, ../sass/partials/_layout.scss */
   .bios .bio:nth-child(3n+1) {
     clear: both;
   }
