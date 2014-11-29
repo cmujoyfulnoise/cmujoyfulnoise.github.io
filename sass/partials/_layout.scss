@@ -1,0 +1,83 @@
+html {
+	background-image: url('../images/background.jpg');
+}
+
+.main-content {
+	width: 90%;
+	margin: 2.5%;
+	padding: 2.5%;
+	background-color: #fff;
+	margin-bottom: 5em;
+	border-radius: 1em;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+	@media (min-width: 70em) {
+		margin: 0 auto 5em auto;
+		border-radius: 1em;
+		padding: 1em;
+		width: 60em;
+	}
+}
+
+.parts {
+	.part {
+		width: 25%;
+		float: left;
+		text-align: center;
+	}
+	
+	overflow: auto;
+	margin-bottom: 2em;
+}
+
+.bios {
+	overflow: auto;
+	h1 {
+		margin: 0 5% 1em 5%;
+	}
+	p {
+		margin: 0 5% .5em 5%;
+	}
+	
+	.bio {
+		h1 {
+			font-size: 2em;
+			margin-bottom: 0.5em;
+		}
+		background-color: #fff;
+		border-radius: 0.5em;
+		margin-bottom: 2em;
+		@media (min-width: 30em) {
+			width: 48%;
+			margin-right: 4%;
+			float: left;
+		}
+		@media (min-width: 50em) {
+			width: 31.5%;
+			margin-right: 2.75%;
+			float: left;
+		}
+		.profilepic {
+			width: 90%;
+			margin: 1em 5%;
+			border-radius: 50%;
+		}
+	}
+	.bio:nth-child(even) {
+		@media (min-width: 30em) and (max-width: 50em) {
+			margin-right: 0;
+		}
+	}
+	.bio:nth-child(3n+3) {
+		@media (min-width: 50em) {
+			margin-right: 0;
+		}
+	}
+	.bio:nth-child(3n+1) {
+		@media (min-width: 50em) {
+			clear: both;
+		}
+	}
+
+}
