@@ -191,6 +191,11 @@ fieldset .button:hover {
   background-color: #74a887;
 }
 
+/* line 85, ../sass/partials/_typography.scss */
+ul {
+  margin-bottom: 1em;
+}
+
 /* line 1, ../sass/partials/_layout.scss */
 html {
   background-image: url("../images/background.jpg");
