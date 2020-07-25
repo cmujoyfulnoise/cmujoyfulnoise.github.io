@@ -1,0 +1,31 @@
+.screen {
+  display: none;
+}
+
+#print {
+  display: block;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 200vh;
+}
+
+#print img {
+  position: absolute;
+  width: 100vw;
+}
+
+.front {
+  transform: rotateZ(180deg);
+  top: 0;
+}
+
+.back {
+  top: 50vh;
+}
+
+.inside {
+  top: 100vh;
+}

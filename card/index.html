@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="HandheldFriendly" content="true">
+
+  <title>Happy Birthday!</title>
+
+  <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="./style.css"/>
+  <link rel="stylesheet" type="text/css" media="print" href="./print.css"/>
+</head>
+
+<body>
+  <div id="loader" class="screen">
+    <div id="loadertext">Loading...</div>
+    <div>Best viewed on Chrome or Firefox on a computer</div>
+  </div>
+
+  <div id="left-half" class="half screen"></div>
+  <div id="right-half" class="half screen"></div>
+
+  <div id="card-wrapper" class="screen">
+    <div id="top" class="card-page">
+      <div id="front" class="card-face"></div>
+      <div id="inside-top" class="card-face"></div>
+    </div>
+
+    <div id="bottom" class="card-page">
+      <div id="inside-bottom" class="card-face"></div>
+      <div id="back" class="card-face"></div>
+    </div>
+  </div>
+
+  <div id="instr-1" class="instr screen">
+    Press either side to flip.
+  </div>
+  <div id="instr-2" class="instr screen">
+    Arrows work too.
+  </div>
+  <div id="instr-3" class="instr screen">
+    Click the card to zoom (1x → fill width → 2x).
+  </div>
+
+  <div id="print">
+      <img src="./card/front_print.png" class="front" />
+      <img src="./card/back_print.png" class="back" />
+      <img src="./card/inside_print.png" class="inside" />
+  </div>
+
+  <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript" src="./prefixfree.min.js"></script>
+</body>
