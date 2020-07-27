@@ -6,7 +6,8 @@ const heading = [
 	["About Us", "./about.html"],
 	["Members", "./members.html"],
 	["Music", "./music.html"],
-	["Contact", "./test.html"]
+	["Contact", "./contact.html"],
+	["Test", "./test.html"]
 ];
 
 // uncomment this when contact page is implemented
