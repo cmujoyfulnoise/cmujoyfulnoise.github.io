@@ -1,4 +1,6 @@
 /* line 1, ../sass/partials/_reset.scss */
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -69,7 +71,7 @@ header h1 {
 }
 /* line 9, ../sass/partials/_header.scss */
 header h1 a {
-  font-family: "amatic sc";
+  font-family: 'Amatic SC', cursive;  
   color: #fff;
 }
 /* line 13, ../sass/partials/_header.scss */
@@ -82,13 +84,13 @@ header nav {
 }
 /* line 19, ../sass/partials/_header.scss */
 header nav li {
-  font-family: "amatic sc";
+  font-family: 'Amatic SC', cursive;
   display: inline-block;
   margin: 0 1em;
 }
 /* line 20, ../sass/partials/_header.scss */
 header nav li a {
-  font-family: "amatic sc";
+  font-family: 'Amatic SC', cursive;
   font-size: 2em;
   color: #fff;
 }
@@ -97,7 +99,7 @@ header nav li a {
 h1 {
   font-size: 2em;
   font-weight: bold;
-  font-family: "amatic sc";
+  font-family: 'Amatic SC', cursive;
   margin-bottom: 0.5em;
   color: #68c181;
 }
@@ -105,7 +107,7 @@ h1 {
 /* line 9, ../sass/partials/_typography.scss */
 h2, h3 {
   font-weight: bold;
-  font-family: "amatic sc";
+  font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
   margin-bottom: 0.5em;
   color: #68c181;
