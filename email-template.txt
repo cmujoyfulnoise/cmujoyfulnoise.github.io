@@ -1,9 +1,0 @@
-To: %MailTo
-From: %email
-CC: %MailCC
-Subject: Someone likes us
-
-%name
-%email
-
-%message
