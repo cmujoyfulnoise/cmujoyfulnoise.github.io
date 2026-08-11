@@ -2,8 +2,7 @@
 
 Welcome to the Joyful Noise repo for our website!
 
-Take a look at our website live on GitHub pages:
-[insert link here]
+Take a look at our website live: cmujoyfulnoise.org
 
 May the Lord Bless you and keep you!
 
