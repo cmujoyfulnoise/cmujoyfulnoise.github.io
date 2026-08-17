@@ -3,13 +3,61 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Joyful Noise &mdash; A Cappella Group</title>
+<title>Joyful Noise &mdash; Christian A Cappella at Carnegie Mellon</title>
+<meta name="description" content="Joyful Noise is Carnegie Mellon's Christian a cappella group. Since 1993 we've shared the joy of the gospel through music across Pittsburgh and beyond. Concerts, auditions, and community.">
+<link rel="canonical" href="https://cmujoyfulnoise.org/">
+<meta name="theme-color" content="#27592C">
+
+<!-- social link previews (Instagram bio, GroupMe, Discord, iMessage) -->
+<meta property="og:site_name" content="Joyful Noise A Cappella">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://cmujoyfulnoise.org/">
+<meta property="og:title" content="Joyful Noise &mdash; Christian A Cappella at Carnegie Mellon">
+<meta property="og:description" content="Carnegie Mellon's Christian a cappella group since 1993. Come hear us sing.">
+<meta property="og:image" content="https://cmujoyfulnoise.org/assets/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The members of Joyful Noise on the CMU lawn">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Joyful Noise &mdash; Christian A Cappella at Carnegie Mellon">
+<meta name="twitter:description" content="Carnegie Mellon's Christian a cappella group since 1993. Come hear us sing.">
+<meta name="twitter:image" content="https://cmujoyfulnoise.org/assets/og-card.jpg">
+
 <link rel="icon" href="assets/favicon.png" sizes="any">
 <link rel="icon" type="image/png" href="assets/favicon.png" sizes="32x32">
 <link rel="apple-touch-icon" href="assets/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Jost:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap">
 <link rel="stylesheet" href="styles.css">
+<script>document.documentElement.className += ' js';</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicGroup",
+  "name": "Joyful Noise",
+  "alternateName": "CMU Joyful Noise",
+  "url": "https://cmujoyfulnoise.org/",
+  "logo": "https://cmujoyfulnoise.org/assets/favicon.png",
+  "image": "https://cmujoyfulnoise.org/assets/og-card.jpg",
+  "foundingDate": "1993-10",
+  "genre": ["A cappella", "Christian", "Gospel"],
+  "description": "Carnegie Mellon University's Christian a cappella group, sharing the truth and joy of the gospel through music since 1993.",
+  "email": "cmujoyfulnoise@gmail.com",
+  "location": { "@type": "Place", "name": "Carnegie Mellon University", "address": { "@type": "PostalAddress", "addressLocality": "Pittsburgh", "addressRegion": "PA", "addressCountry": "US" } },
+  "memberOf": { "@type": "CollegeOrUniversity", "name": "Carnegie Mellon University" },
+  "sameAs": [
+    "https://www.instagram.com/cmujoyfulnoise",
+    "https://www.youtube.com/@CMUJoyfulNoise"
+  ]
+}
+</script>
 </head>
 <body>
+
+<a class="skip-link" href="#main">Skip to content</a>
 
 <!-- ============================================================
      NAVIGATION
@@ -17,21 +65,23 @@
 <header class="site-nav">
   <div class="nav-inner">
     <a href="index.html" class="nav-logo">
-      <img src="assets/favicon.png" alt="Joyful Noise logo">
+      <img src="assets/favicon.png" alt="Joyful Noise logo" width="48" height="48" decoding="async">
     </a>
     <nav>
-      <ul class="nav-links">
+      <ul class="nav-links" id="nav-links">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="members.html">Our Members</a></li>
         <li><a href="events.html">Events</a></li>
       </ul>
     </nav>
-    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
       <span></span><span></span><span></span>
     </button>
   </div>
 </header>
+
+<main id="main">
 
 <!-- ============================================================
      HERO
@@ -40,9 +90,12 @@
   <div class="hero-bars" aria-hidden="true"></div>
   <div class="hero-content">
     <p class="hero-kicker">make a</p>
-    <a href="index.html" class="hero-logo-link">
-      <img class="hero-logo" src="assets/jnlogolong.png" alt="Joyful Noise">
-    </a>
+    <h1 class="hero-title">
+      <a href="index.html" class="hero-logo-link">
+        <img class="hero-logo" src="assets/jnlogolong.png" alt="Joyful Noise" width="800" height="261" fetchpriority="high" decoding="async">
+      </a>
+      <span class="visually-hidden">Christian a cappella at Carnegie Mellon</span>
+    </h1>
     <p class="hero-sub">to the Lord, all the Earth!</p>
     <p class="hero-verse">Psalm 100:1</p>
   </div>
@@ -54,7 +107,7 @@
      ============================================================ -->
 <section class="section group-photo-section wrap reveal">
   <div class="group-photo-frame">
-    <img src="assets/images/groupphoto.jpg" alt="Joyful Noise full group photo">
+    <img src="assets/images/groupphoto.jpg" alt="Joyful Noise full group photo" width="2200" height="1467" loading="lazy" decoding="async">
   </div>
 </section>
 
@@ -114,15 +167,41 @@
       </button>
     </div>
   </div>
-  <div class="gallery-viewport reveal">
-    <div class="gallery-track"> <!-- to add photos, put them in gallery folder, a name them in increasing order "1.jpg, 2.jpg, etc." and copy and paste another line of gallery-slide (jpg is case-sensitive, github is picky) -->
-      <div class="gallery-slide"><img src="assets/images/gallery/1.jpg" alt="Joyful Noise gallery photo 1"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/2.jpg" alt="Joyful Noise gallery photo 2"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/3.jpg" alt="Joyful Noise gallery photo 3"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/4.jpg" alt="Joyful Noise gallery photo 4"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/5.jpg" alt="Joyful Noise gallery photo 5"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/6.jpg" alt="Joyful Noise gallery photo 6"></div>
-      <div class="gallery-slide"><img src="assets/images/gallery/7.jpg" alt="Joyful Noise gallery photo 7"></div>
+  <!-- ------------------------------------------------------------
+       TO ADD A PHOTO:
+       1. Put the full-size photo in  assets/images/gallery/  named with the
+          next number up  (1.jpg, 2.jpg, 3.jpg ...). Lowercase .jpg — GitHub
+          is case-sensitive and will 404 on .JPG.
+       2. Run  python3 tools/optimize-photos.py  so it isn't a 15MB camera
+          file. That shrinks the thumbnail in gallery/ AND writes the bigger
+          version the lightbox opens into gallery/large/ automatically.
+       3. Copy one <button class="gallery-slide"> block below and update
+          the two paths, the alt text, and width/height.
+       The arrows, swipe, dots and lightbox all pick it up automatically.
+       ------------------------------------------------------------ -->
+  <div class="gallery-viewport reveal" tabindex="0" role="region" aria-label="Photo gallery, scrollable">
+    <div class="gallery-track">
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/1.jpg">
+        <img src="assets/images/gallery/1.jpg" alt="Members of Joyful Noise seated on the stone steps of an ornate arched building" width="900" height="1350" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/2.jpg">
+        <img src="assets/images/gallery/2.jpg" alt="The group performing in a church sanctuary in front of a seated audience" width="900" height="600" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/3.jpg">
+        <img src="assets/images/gallery/3.jpg" alt="Four members laughing together under the hanging flower baskets of a glass conservatory" width="900" height="600" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/4.jpg">
+        <img src="assets/images/gallery/4.jpg" alt="A member singing a solo into a handheld microphone at a concert" width="900" height="600" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/5.jpg">
+        <img src="assets/images/gallery/5.jpg" alt="Members gathered together in a vaulted stone archway" width="900" height="600" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/6.jpg">
+        <img src="assets/images/gallery/6.jpg" alt="Members laughing and leaning on each other outside on campus" width="900" height="506" loading="lazy" decoding="async">
+      </button>
+      <button type="button" class="gallery-slide" data-large="assets/images/gallery/large/7.jpg">
+        <img src="assets/images/gallery/7.jpg" alt="Members standing together on the lawn in front of a domed campus building" width="900" height="600" loading="lazy" decoding="async">
+      </button>
     </div>
   </div>
   <div class="gallery-dots"></div>
@@ -159,6 +238,8 @@
 <!-- ============================================================
      FOOTER
      ============================================================ -->
+</main>
+
 <footer class="site-footer">
   <div class="footer-inner">
     <span>&copy; 2026 Joyful Noise A Cappella. Created by JN LT 26-27 with assistance from Claude Sonnet 5</span>
