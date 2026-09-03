@@ -420,6 +420,64 @@ p{ line-height: 1.7; color: var(--ink-soft); }
 }
 
 /* ============================================================
+   AUDITIONS PROMO
+   ============================================================ */
+.audition-promo{
+  position:relative;
+  overflow:hidden;
+  background: var(--gold);
+  color: var(--green-dark);
+}
+.audition-promo::after{
+  content:"";
+  position:absolute;
+  width:360px;
+  height:360px;
+  right:-90px;
+  top:50%;
+  border:1px solid rgba(22,58,27,.2);
+  border-radius:50%;
+  transform:translateY(-50%);
+  box-shadow: 0 0 0 26px rgba(22,58,27,.06), 0 0 0 52px rgba(22,58,27,.04);
+  pointer-events:none;
+}
+.audition-promo-inner{
+  position:relative;
+  z-index:1;
+  min-height:190px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:40px;
+  padding-top:34px;
+  padding-bottom:34px;
+}
+.audition-promo .eyebrow{
+  display:block;
+  margin-bottom:10px;
+  color:var(--green-dark);
+}
+.audition-promo h2{
+  color:var(--green-dark);
+  font-size:clamp(2rem, 4vw, 3.3rem);
+  font-weight:500;
+}
+.audition-promo-btn{
+  flex-shrink:0;
+  min-height:62px;
+  padding:18px 38px;
+  background:var(--green-dark);
+  color:var(--white);
+  font-size:1.05rem;
+  box-shadow:0 10px 24px -10px rgba(22,58,27,.65);
+}
+.audition-promo-btn:hover{
+  background:var(--green-deep);
+  color:var(--white);
+  transform:translateY(-2px);
+}
+
+/* ============================================================
    WAVE DIVIDER
    ============================================================ */
 .wave-divider{
@@ -1166,6 +1224,8 @@ p{ line-height: 1.7; color: var(--ink-soft); }
 
   .section{ padding: 78px 15px; }
   .group-photo-section{ padding-bottom: 78px; }
+  .audition-promo-inner{ align-items:flex-start; flex-direction:column; gap:24px; padding-top:38px; padding-bottom:38px; }
+  .audition-promo-btn{ width:100%; }
   .who-actions{ flex-direction:column; align-items:stretch; }
   .who-actions .btn{ width:100%; }
   .history-item{ flex-basis: 220px; }
