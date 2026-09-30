@@ -1123,6 +1123,9 @@ p{ line-height: 1.7; color: var(--ink-soft); }
   border-bottom: 1px solid rgba(39,89,44,.15);
 }
 .event-row:first-child{ padding-top:0; }
+.event-row[data-accent]{ border-left:3px solid var(--event-accent); padding-left:12px; }
+.event-row[data-accent="green"]{ --event-accent:var(--green-deep); }
+.event-row[data-accent="gold"]{ --event-accent:var(--gold-text); }
 .event-date{
   background: var(--green-deep);
   color: var(--white);
@@ -1146,6 +1149,7 @@ p{ line-height: 1.7; color: var(--ink-soft); }
 .event-meta span{ display:flex; align-items:center; gap:6px; }
 .event-meta svg{ width:14px; height:14px; fill: var(--green-mid); }
 .event-main p{ margin:0; font-size:.95rem; max-width: 560px; }
+.event-links{ display:flex; flex-wrap:wrap; gap:14px; margin-top:8px; }
 .event-cta{ white-space:nowrap; }
 
 .events-empty-note{

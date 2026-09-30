@@ -1,0 +1,51 @@
+{
+  "_comment": "Add new event objects to the events array. Required fields: title, startDate (YYYY-MM-DD), time (display text such as '4:00PM', 'All Day', or 'TBD'), location, and description. For multi-day events, add endDate (YYYY-MM-DD). Optional button: {label, href, variant}; optional links: [{label, href}]. Use a named accent color that can map to a site theme, not arbitrary CSS. Omit optional fields when unused.",
+  "events": [
+    {
+      "title": "The FAIR",
+      "startDate": "2026-09-02",
+      "time": "4:00PM",
+      "location": "The Cut",
+      "description": "Come find us at the The FAIR (The Club Fair)! Booth Number is 84!"
+    },
+    {
+      "title": "Fall Auditions",
+      "startDate": "2026-09-03",
+      "endDate": "2026-09-06",
+      "time": "All Day",
+      "location": "TBA",
+      "description": "Unfortunately, our auditions have closed for this semester. Check in with us in Spring 2027!",
+      "removed-button-but-just-for-reference": {
+        "label": "Audition Form",
+        "href": "https://docs.google.com/forms/d/e/1FAIpQLSdN8Yvms_tc0Vw8xkgPZLGASOEs_0prdJ8kjk3QL7Vo9SCvyg/viewform",
+        "variant": "outline"
+      }
+    },
+    {
+      "title": "AcaPittsburgh",
+      "startDate": "2026-10-02",
+      "time": "8:00-10:00 PM",
+      "location": "CUC McConomy",
+      "description": "A benefit concert hosted by Counterpoint, a fellow a cappella group on campus. Come join us for a night of music!",
+      "button": {
+        "label": "Buy Tickets",
+        "href": "https://tartanconnect.cmu.edu/counterpoint/rsvp_boot?id=1938021",
+        "variant": "outline"
+      }
+    },
+    {
+      "title": "Fall Concert",
+      "startDate": "2026-11-21",
+      "time": "TBD",
+      "location": "Porter 100",
+      "description": "Our final concert of the semester, celebrating all our work in the fall! Livestream will also be on YouTube."
+    },
+    {
+      "title": "Almost Midnight A Cappella",
+      "startDate": "2026-12-14",
+      "time": "10:00 PM",
+      "location": "UC McConomy",
+      "description": "Catch us right before midnight as we perform at the semester tradition during Finals Week"
+    }
+  ]
+}
